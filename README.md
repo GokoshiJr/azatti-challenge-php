@@ -29,6 +29,12 @@ touch .env
 - FILESYSTEM_DRIVER=public
 - ...another laravel key=values (see .env.example file)
 
+## create storage link to serving pictures
+
+```bash
+php artisan storage:link
+```
+
 ## run the program
 
 ```bash
