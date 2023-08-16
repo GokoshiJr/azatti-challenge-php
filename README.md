@@ -19,13 +19,14 @@ git clone https://github.com/GokoshiJr/azatti-challenge-php.git
 cd azatti-challenge-php
 ```
 
-## create and fill .env file (add APP_API key for api token request)
+## create and fill .env file (add APP_API key for api token request and FILESYSTEM_DRIVER)
 
 ```bash
 touch .env
 ```
 
 - APP_API= YOUR_API_TOKEN
+- FILESYSTEM_DRIVER=public
 - ...another laravel key=values (see .env.example file)
 
 ## run the program
